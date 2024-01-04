@@ -1,0 +1,254 @@
+.container {
+    display: flex;
+  }
+  
+  .sidebar {
+    width: 100px;
+    background-color: #183A64;
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+
+  .sidebar #icon1 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 100%;
+    
+  }
+
+  .sidebar #icon2 {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 60%;
+  }
+
+  .sidebar #icon2:hover {
+    width: 60px;
+    height: 60px;
+    filter: brightness(50%);
+  }
+
+  .sidebar #icon3 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 80%;
+  }
+
+  .sidebar #icon3:hover {
+    width: 80px;
+    height: 80px;
+    filter: brightness(50%);
+  }
+
+  .sidebar #icon4 {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 65%;
+  }
+
+  .sidebar #icon4:hover {
+    width: 65px;
+    height: 65px;
+    filter: brightness(50%);
+  }
+
+
+  .sidebar #icon5 {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 85%;
+  }
+
+  .sidebar #icon5:hover {
+    width: 85px;
+    height: 85px;
+    filter: brightness(50%);
+  }
+
+  .sidebar #icon6 {
+    padding: 20px;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    max-width: 65%;
+  }
+
+  .sidebar #icon6:hover {
+    width: 65px;
+    height: 65px;
+    filter: brightness(50%);
+  }
+  
+  .header {
+    margin-top: -30px;
+    margin-left: 60px;
+  }
+
+  #line1 {
+    height: 1px;
+    background-color: #CDCDCD;
+    border: none;
+}
+
+#line2{
+  position: fixed;
+  top: 70px;;
+  left: 100px; 
+  right: 0px; 
+  width: auto;
+  height: 1px;
+  background-color: #CDCDCD;
+  border: none;
+}
+
+#line3{
+  position: fixed;
+  top: 110px;;
+  left: 100px; 
+  right: 0px; 
+  width: auto;
+  height: 1px;
+  background-color: #CDCDCD;
+  border: none;
+
+}
+
+  .header #text1{
+    position:fixed;
+    margin-top: 45px;
+    margin-left: 120px;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 30px;
+    color:#183A64
+  }
+
+  .header #icon1{
+    position:fixed;
+    margin-top: 11px;
+    float:left;
+    margin-left: -20px;
+    width: 200px;
+    height: 100px;
+  }
+
+  .header p{
+    position: fixed;
+    font-family: Arial;
+    margin-left: 40px;
+    margin-top: 110px;
+    color: #B4AFAC
+  }
+
+  .header #icon2{
+    position: fixed;
+    margin-top: 10px;
+    right: 0;
+    width: 100px; 
+  }
+  
+  .header #text2{
+    position:fixed;
+    margin-top: 105px;
+    margin-left: 220px;
+    display: inline-block;
+    font-family: Arial;
+    font-size: 20px;
+    color:#183A64
+  }
+
+  .header #vertical-line{
+    position:fixed;
+    border-left: 1px solid #CDCDCD;
+    height: 100px; /* set the height of the line */
+    right: 110px;
+  }
+
+  .main-content #img1{
+    position:fixed;
+    margin-left: 150px;
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+  }
+
+  .main-content #text_img1{
+    position:fixed;
+    margin-left: 300px;
+    margin-top: 220px;
+    font-size: 18px;
+    color:#B4AFAC;
+    font-family:Arial;
+  }
+  
+  .main-content #img2{
+    position:fixed;
+    margin-left: 450px;
+    margin-top: 200px;
+    width: 400px;
+    height: 200px;
+  }
+
+  .main-content #text_img2{
+    position:fixed;
+    margin-left: 600px;
+    margin-top: 220px;
+    font-size: 18px;
+    color:#B4AFAC;
+    font-family:Arial;
+  }
+
+  .main-content #recap{
+    position:fixed;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 1600px;
+    margin-top: 170px;
+    background-color: #5271FF;
+    width: 100px;
+    height: 10px;
+  }
+
+   #recapText{
+    margin-top: -11px;
+    margin-left: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+  .main-content #recap{
+    position:fixed;
+    border-radius: 10px;
+    padding: 20px;
+    margin-left: 1600px;
+    margin-top: 170px;
+    background-color: #5271FF;
+    width: 100px;
+    height: 10px;
+  }
+
+   #recapText{
+    margin-top: -11px;
+    margin-left: 11px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+  }
+
+/* 
+  warna: 183A64
+  garis: CDCDCD
+  pby: B4AFAC
+*/
